@@ -12,7 +12,7 @@ def get_user_name_password():
 
 if __name__ == "__main__":
     print("Web Scrapping iniciado ....")
-    chromedrivepath = r"C:\Users\repes\PycharmProjects\pythonProject\chromedriver.exe"
+    chromedrivepath = r"C:\Users\repes\Desktop\Big Data\Coleta de dados\Crawler\chromedriver.exe"
     driver = webdriver.Chrome(chromedrivepath)
     driver.maximize_window()
 
