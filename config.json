@@ -2,6 +2,7 @@
 	{
 		"user_name": "fulanodetal@gmail.com",
 		"password": "A1B2c3d4",
-		"page_name":"fulanodetal"
+		"page_name": "fulanodetal"
+		"chromedrivepath": "C:\Users\repes\PycharmProjects\pythonProject\chromedriver.exe"
 	}
 }
