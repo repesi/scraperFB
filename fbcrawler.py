@@ -12,11 +12,11 @@ def get_user_name_password():
 
 if __name__ == "__main__":
     print("Web Scrapping iniciado ....")
-    user_detail = get_user_name_password()
-   #chromedrivepath = r"C:\Users\repes\PycharmProjects\pythonProject\chromedriver.exe"
-    driver = webdriver.Chrome(user_detail["chromedrivepath"])
+    chromedrivepath = r"C:\Users\repes\PycharmProjects\pythonProject\chromedriver.exe"
+    driver = webdriver.Chrome(chromedrivepath)
     driver.maximize_window()
 
+    user_detail = get_user_name_password()
     page_name = user_detail["page_name"]
     LOGIN_URL = 'https://www.facebook.com/login'
     REQUEST_URL = f'https://www.facebook.com/{page_name}/settings/?tab=people_and_other_pages&ref=page_edit'
